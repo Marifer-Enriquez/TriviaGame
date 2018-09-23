@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cities in the World!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+	<header> <img src="assets\images\cityheader.jpeg"> <img src="assets\images\cityheader.jpeg"> <img src="assets\images\cityheader.jpeg"></header>
+<h1>Fun facts about cities in the world </h1>
+	<br><hr>
+<div class="container" id="timer">
+	<div class = "row">
+		<div class= col-md-6>
+			<div id="timetoanswer"></div>
+		</div>
+	</div>
+</div>
+<br>
+<div class="container" id="trivia">
+<div class = "row" id="currentQuestion"></div>
+<div class= col-md-6>
+	<ul>
+	<li class= "clickme" id="answer1"></li>
+	<li class= "clickme" id="answer2"></li>
+	<li class= "clickme" id="answer3"></li>
+</ul>
+</div>
+<button id= "startGame">Start Playing!</button>
+</div>
+<div class="container" id="results">
+	<div class = "row"> 
+		<div class= col-md-6>Right answers: </div><div id= "right"> </div>
+	</div>
+	<div class = "row"> 
+			<div class= col-md-6>Wrong answers: </div><div id= "wrong"> </div>
+	</div>
+	<div class = "row"> 
+			<div class= col-md-6> </div><div id= "last"> </div>
+	</div>
+</div>
+<!-- jQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- javascript -->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

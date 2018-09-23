@@ -1,0 +1,24 @@
+header{
+    width: 100%;
+    text-align: center;
+
+}
+
+H1{
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(57, 57, 90);
+    font-size: 50px;
+}
+#currentQuestion{
+    font-size: 45px; 
+    text-align: center;
+}
+#answer1, #answer2, #answer3{
+        font-size: 30px; 
+    }
+    
+body{
+    width: 90%; 
+    align-content: center;
+}
